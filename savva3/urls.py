@@ -70,6 +70,7 @@ urlpatterns = [
     path('team/', views.page, {'tpl': 'pages/team.html'}, name='team'),
     path('credits/', views.page, {'tpl': 'pages/credits.html'}, name='credits'),
     path('100lessons/', views.page, {'tpl': 'pages/100lessons.html'}, name='100lessons'),
+    path('recommend/', views.recommend, name='recommend')
 
     #path('', include('django.contrib.flatpages.urls')),
 ]

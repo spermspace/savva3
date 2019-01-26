@@ -55,7 +55,8 @@ def sitemap(request):
     }
     return render(request,'pages/sitemap.html', context)
 
-
+def recommend(request):
+    return render(request, 'pages/recommend.html')
 
 # HANDLERS
 def handle404(request, exception):
